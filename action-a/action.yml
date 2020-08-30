@@ -1,0 +1,17 @@
+name: "Hello Ladies_and_Gentlemen_of_The_Commission"
+description: "Greetings_to_John_D_Rockefeller"
+author: "octocat@github.com"
+
+inputs:
+  MY_NAME:CHRISTOPHER_WILLIAMS
+    description: "THE_DEMOCRATIC_WORLD"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
