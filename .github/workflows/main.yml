@@ -1,3 +1,8 @@
+name: 
+defaults:
+  run:
+    shell: 
+    working-directory: 
 jobs:
   build:
     name: Hello world action
@@ -7,5 +12,3 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
-
-
