@@ -1,14 +1,14 @@
 name: JUSTICE_RESKILL_COHORT_1
 defaults:❤ 
-  run: DEFAULT
-    shell: DIR
-    working-directory: FIRST_ACTION_1
-jobs: $$MONEY$$
-  build: TEMP_FILE
+ run:
+    shell: 
+    working-directory: 
+jobs: 
+  build: 
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
         with:
-          MY_NAME: "Mona"
+          MY_NAME: "Christopher Williams"
